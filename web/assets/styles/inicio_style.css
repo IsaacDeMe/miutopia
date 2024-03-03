@@ -1,0 +1,162 @@
+a{
+    color: white;
+}
+s:hover{
+    color: white;
+    scale: 1.2;
+}
+
+.img-portada {
+    width: 100%;
+}
+.titulo-web{
+    position: absolute;
+    display: block;
+    top: 250px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section {
+    flex: 1 1 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main section h2 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
+main section p {
+    margin-bottom: 20px;
+}
+
+main section img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+main section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main section ul li {
+text-align: center;
+}
+
+main section ul li p {
+margin: 0;
+font-size: 1.5em;
+}
+
+main section ul li img {
+max-width: 100px;
+height: auto;
+margin-bottom: 10px;
+}
+.seccion-boton{
+    width: 100%;
+}
+.button-contactar{
+    padding: 5px 5px;
+    border: none;
+    font-size: 20px;
+    border-radius: 2%;
+    background-color: #50505066;
+    width: 20%;
+    margin: auto;
+}
+.button-contactar:hover{
+    scale: 1.02;
+}
+.texto{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    font-size: 20px;
+
+}
+.img-texto{
+    display: inline-block;
+    margin:auto;
+}
+.seccion-img{
+    width: 40%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 991px)
+{
+    .titulo-web{
+        
+        top: 150px;
+        
+    }
+    .seccion-boton{
+        width: 100%;
+        align-items: center;
+    }
+    .button-contactar{
+        padding: 5px 5px;
+        border: none;
+        font-size: 20px;
+        border-radius: 2%;
+        background-color: #50505066;
+        width: auto;
+        margin-left: 50%;
+        transform:translate(-50%);
+        margin-top: 10px;
+        
+    }
+    .button-contactar:hover{
+        scale: 1.02;
+    }
+    .texto{
+        display: block;
+        position: relative;
+        width: 100%;
+        font-size: 20px;
+    
+    }
+    .img-texto{
+        display: inline-block;
+        margin:auto;
+    }
+    .seccion-img{
+        width: 100%;
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (max-width: 701px)
+{
+    .titulo-web{
+        top: 100px;
+    }
+}
